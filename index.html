@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+<script>
+  // Controlled strictly by our C++ host injector before local rendering
+  window.DRIPZONE_EDIT_MODE = false;
+</script>
+
+
+<meta charset="UTF-8"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Barber Express Maarif — Premium Experience</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{bg:'#050505',card:'#0d0d0d',accent:'#10B981',text:'#f5f5f5',void:'#030303',surface:'#12121a'}},fontFamily:{sans:['Almarai','Inter','system-ui','sans-serif']}}}};
+</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="styles.css"/>
+<style>
+body{background-color:#050505;font-family:'Almarai','Inter',sans-serif;}
+::selection{background-color:#10B981;color:#000;}
+.bg-glow-hero{background:radial-gradient(circle at 50% 30%,rgba(16, 185, 129,0.15) 0%,transparent 60%);}
+.bg-glow-side{background:radial-gradient(circle at 90% 70%,rgba(16, 185, 129,0.08) 0%,transparent 50%);}
+@keyframes dz-pulse-glow{0%,100%{box-shadow:0 0 20px rgba(16, 185, 129,0.35);}50%{box-shadow:0 0 32px rgba(16, 185, 129,0.55);}}
+.dz-pulse-cta{animation:dz-pulse-glow 2.4s ease-in-out infinite;}
+details[open] summary .faq-chevron{transform:rotate(180deg);}
+</style>
+</head>
+<body class="bg-brand-bg text-brand-text antialiased overflow-x-hidden relative">
+<div class="fixed inset-0 bg-glow-hero pointer-events-none z-0"></div>
+<div class="fixed inset-0 bg-glow-side pointer-events-none z-0"></div>
+<div class="relative z-10">
+<nav class="border-b border-neutral-900/80 bg-[#050505]/85 backdrop-blur-2xl sticky top-0 z-50 relative shadow-[0_8px_32px_rgba(0,0,0,0.45)]">
+<div class="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-between">
+<span class="text-lg font-black text-white uppercase" data-placeholder="brand_name">Barber Express<span class="text-brand-accent">Maarif</span></span>
+<div class="hidden md:flex items-center gap-6 text-xs text-neutral-400">
+<a href="#services" class="hover:text-white transition-colors">الخدمات</a>
+<a href="#gallery" class="hover:text-white transition-colors">المعرض</a>
+<a href="#faq" class="hover:text-white transition-colors">الأسئلة</a>
+<a href="#booking" class="hover:text-white transition-colors dz-booking-nav" data-dz-booking-cta>الحجز</a>
+<a href="#location" class="hover:text-white transition-colors">الموقع</a>
+</div>
+<a href="tel:+212672345678" class="dz-pulse-cta rounded-xl bg-brand-accent text-black px-5 py-2.5 text-xs font-bold hover:scale-105 transition-transform" data-placeholder="cta">اتصل الآن</a>
+</div></nav><section id="home" class="max-w-screen-xl mx-auto px-6 py-16 text-center relative z-10" data-aos="fade-up">
+<span class="inline-flex bg-brand-accent/10 text-brand-accent text-xs font-bold px-4 py-1.5 rounded-full border border-brand-accent/30">📍 Casablanca</span>
+<h1 class="text-4xl md:text-6xl font-black text-white mt-6 leading-tight" data-placeholder="hero_title">Barber Express Maarif</h1>
+<p class="text-lg text-white/80 mt-4 max-w-2xl mx-auto" data-placeholder="hero_tagline">BARBER SHOP · Casablanca</p>
+<p class="text-sm text-neutral-400 mt-3 max-w-xl mx-auto" data-placeholder="hero_subtitle">Découvrez nos services professionnels à Casablanca.</p>
+<div class="flex flex-wrap gap-3 justify-center mt-8">
+<a href="#booking" class="dz-pulse-cta bg-brand-accent text-black font-black rounded-full px-8 py-4 text-sm" data-dz-booking-cta data-placeholder="cta">احجز الآن</a>
+</div>
+<div class="mt-10 max-w-3xl mx-auto rounded-2xl overflow-hidden border border-neutral-800">
+<img src="assets/hero.jpg?v=1781961087316" alt="Barber Express Maarif" class="w-full h-[360px] object-cover" data-editable="hero_image" loading="eager"/>
+</div>
+<div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 bg-brand-card/70 border border-neutral-900 p-5 md:p-6 rounded-3xl backdrop-blur-md text-center shadow-[0_0_40px_rgba(16, 185, 129,0.08)]" data-aos="fade-up">
+<div class="p-3 rounded-2xl border border-neutral-900/80"><h3 class="text-xl md:text-2xl font-extrabold text-white">+6</h3><p class="text-[10px] text-neutral-500 mt-1">سنوات الخبرة</p></div>
+<div class="p-3 rounded-2xl border border-neutral-900/80"><h3 class="text-xl md:text-2xl font-extrabold text-brand-accent">5.0</h3><p class="text-[10px] text-neutral-500 mt-1">تقييم Google</p></div>
+<div class="p-3 rounded-2xl border border-neutral-900/80"><h3 class="text-xl md:text-2xl font-extrabold text-white">-178+</h3><p class="text-[10px] text-neutral-500 mt-1">مراجعة موثقة</p></div>
+<div class="p-3 rounded-2xl border border-neutral-900/80"><h3 class="text-xl md:text-2xl font-extrabold text-white">100%</h3><p class="text-[10px] text-neutral-500 mt-1">معايير التعقيم</p></div>
+</div></section><section id="services" data-dz-section="services" class="max-w-screen-xl mx-auto px-6 py-24 bg-brand-card/30 border-y border-neutral-900 relative z-10">
+<div class="text-center mb-16" data-aos="fade-up"><span class="text-brand-accent text-xs font-bold tracking-widest uppercase">الخدمات</span><h2 class="text-3xl font-black text-white mt-2" data-placeholder="services_title">اختر تجربتك الفاخرة</h2><p class="text-neutral-500 text-xs mt-3 max-w-lg mx-auto">باقات واضحة، أسعار شفافة، وجودة لا تقبل المساومة.</p></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+<div class="p-8 rounded-3xl bg-brand-card border border-neutral-900 hover:border-brand-accent/30 transition-all duration-300" data-aos="fade-up"><div class="text-[10px] text-neutral-500 mb-2">01</div><h3 class="text-lg font-bold text-white mb-3" data-placeholder="service_1_title">قص وتصفيف الشعر</h3><p class="text-neutral-400 text-xs mb-6 leading-relaxed" data-placeholder="service_1_desc">تحديد ونحت الشعر بطرق عصرية متناغمة مع شكل الوجه.</p><div class="flex justify-between pt-5 border-t border-neutral-900"><span class="text-xs text-neutral-500">السعر</span><span class="font-black text-brand-accent text-lg">70 DH</span></div></div>
+<div class="p-10 rounded-3xl bg-brand-card/90 border-2 border-brand-accent/40 shadow-[0_0_40px_rgba(16, 185, 129,0.12)] scale-[1.02] z-10" data-aos="fade-up" data-aos-delay="100"><span class="text-[10px] uppercase text-brand-accent font-bold tracking-widest">الأكثر طلباً</span><h3 class="text-xl font-bold text-white mb-3 mt-2" data-placeholder="service_2_title">تحديد اللحية الملكي</h3><p class="text-neutral-300 text-xs mb-6 leading-relaxed" data-placeholder="service_2_desc">فوطة ساخنة وموس حاد مع ترطيب بأرقى الزيوت.</p><div class="flex justify-between pt-5 border-t border-neutral-800"><span class="text-xs text-neutral-400">السعر</span><span class="font-black text-brand-accent text-xl">80 DH</span></div></div>
+<div class="p-8 rounded-3xl bg-brand-card border border-neutral-900 hover:border-brand-accent/30 transition-all duration-300" data-aos="fade-up" data-aos-delay="200"><div class="text-[10px] text-neutral-500 mb-2">03</div><h3 class="text-lg font-bold text-white mb-3" data-placeholder="service_3_title">تنظيف البشرة والعناية</h3><p class="text-neutral-400 text-xs mb-6 leading-relaxed" data-placeholder="service_3_desc">حمام بخار وإزالة الرؤوس السوداء بماسك فاخر.</p><div class="flex justify-between pt-5 border-t border-neutral-900"><span class="text-xs text-neutral-500">السعر</span><span class="font-black text-brand-accent text-lg">95 DH</span></div></div>
+</div></section><section id="gallery" data-dz-section="gallery" class="max-w-screen-xl mx-auto px-6 py-24 relative z-10 border-y border-neutral-900/60 bg-brand-card/20">
+<div class="text-center mb-12" data-aos="fade-up"><span class="text-brand-accent text-xs font-bold uppercase tracking-widest">معرض الصور</span><h2 class="text-3xl font-black text-white mt-2" data-placeholder="gallery_title">لحظات من داخل Barber Express Maarif</h2><p class="text-neutral-500 text-xs mt-3 max-w-md mx-auto">صور متناسقة — إطار مربع ثابت، بدون تشويه.</p></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+<div class="relative w-full aspect-square overflow-hidden rounded-2xl border border-neutral-800/60 bg-neutral-900/40 shadow-[0_4px_24px_rgba(0,0,0,0.35)]" data-aos="fade-up" data-aos-delay="0">
+<img src="assets/gallery_1.jpg?v=1781961087342" alt="gallery 1" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" data-editable="gallery_image_1" loading="lazy"/>
+</div><div class="relative w-full aspect-square overflow-hidden rounded-2xl border border-neutral-800/60 bg-neutral-900/40 shadow-[0_4px_24px_rgba(0,0,0,0.35)]" data-aos="fade-up" data-aos-delay="50">
+<img src="assets/gallery_2.jpg?v=1781961087355" alt="gallery 2" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" data-editable="gallery_image_2" loading="lazy"/>
+</div><div class="relative w-full aspect-square overflow-hidden rounded-2xl border border-neutral-800/60 bg-neutral-900/40 shadow-[0_4px_24px_rgba(0,0,0,0.35)]" data-aos="fade-up" data-aos-delay="100">
+<img src="assets/gallery_3.jpg?v=1781961087369" alt="gallery 3" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" data-editable="gallery_image_3" loading="lazy"/>
+</div><div class="relative w-full aspect-square overflow-hidden rounded-2xl border border-neutral-800/60 bg-neutral-900/40 shadow-[0_4px_24px_rgba(0,0,0,0.35)]" data-aos="fade-up" data-aos-delay="150">
+<img src="assets/gallery_4.jpg?v=1781961087379" alt="gallery 4" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" data-editable="gallery_image_4" loading="lazy"/>
+</div><div class="relative w-full aspect-square overflow-hidden rounded-2xl border border-neutral-800/60 bg-neutral-900/40 shadow-[0_4px_24px_rgba(0,0,0,0.35)]" data-aos="fade-up" data-aos-delay="200">
+<img src="https://images.unsplash.com/photo-1503951914875-57316270389b?auto=format&amp;fit=crop&amp;w=1600&amp;h=900&amp;q=80" alt="gallery 5" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" data-editable="gallery_image_5" loading="lazy"/>
+</div><div class="relative w-full aspect-square overflow-hidden rounded-2xl border border-neutral-800/60 bg-neutral-900/40 shadow-[0_4px_24px_rgba(0,0,0,0.35)]" data-aos="fade-up" data-aos-delay="250">
+<img src="https://images.unsplash.com/photo-1622286342623-4fc325b37983?auto=format&amp;fit=crop&amp;w=1600&amp;h=900&amp;q=80" alt="gallery 6" class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" data-editable="gallery_image_6" loading="lazy"/>
+</div>
+</div></section><section id="faq" data-dz-section="faq" class="max-w-screen-xl mx-auto px-6 py-24 relative z-10">
+<div class="text-center mb-12" data-aos="fade-up"><span class="text-brand-accent text-xs font-bold uppercase tracking-widest">أسئلة شائعة</span><h2 class="text-3xl font-black text-white mt-2">كل ما تحتاج معرفته قبل الحجز</h2></div>
+<div class="max-w-3xl mx-auto space-y-4">
+<details class="group bg-brand-card border border-neutral-900 rounded-2xl p-5 open:border-brand-accent/30 open:shadow-[0_0_24px_rgba(16, 185, 129,0.08)] transition-all duration-300" data-aos="fade-up" data-aos-delay="0">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-white">
+<span data-placeholder="faq_1_q">كيف أحجز موعداً؟</span>
+<span class="faq-chevron text-brand-accent transition-transform duration-300">▼</span>
+</summary>
+<p class="mt-4 text-xs text-neutral-400 leading-relaxed border-t border-neutral-900 pt-4" data-placeholder="faq_1_a">اختر الخدمة والتاريخ من نموذج الحجز أدناه، أو راسلنا مباشرة عبر واتساب وسنؤكد الموعد خلال دقائق.</p>
+</details>
+<details class="group bg-brand-card border border-neutral-900 rounded-2xl p-5 open:border-brand-accent/30 open:shadow-[0_0_24px_rgba(16, 185, 129,0.08)] transition-all duration-300" data-aos="fade-up" data-aos-delay="80">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-white">
+<span data-placeholder="faq_2_q">هل يمكنني إلغاء أو تغيير الموعد؟</span>
+<span class="faq-chevron text-brand-accent transition-transform duration-300">▼</span>
+</summary>
+<p class="mt-4 text-xs text-neutral-400 leading-relaxed border-t border-neutral-900 pt-4" data-placeholder="faq_2_a">نعم — أبلغنا قبل 3 ساعات على الأقل من الموعد عبر واتساب وسنعيد جدولة حجزك دون أي رسوم.</p>
+</details>
+<details class="group bg-brand-card border border-neutral-900 rounded-2xl p-5 open:border-brand-accent/30 open:shadow-[0_0_24px_rgba(16, 185, 129,0.08)] transition-all duration-300" data-aos="fade-up" data-aos-delay="160">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-white">
+<span data-placeholder="faq_3_q">ما بروتوكولات النظافة والسلامة؟</span>
+<span class="faq-chevron text-brand-accent transition-transform duration-300">▼</span>
+</summary>
+<p class="mt-4 text-xs text-neutral-400 leading-relaxed border-t border-neutral-900 pt-4" data-placeholder="faq_3_a">أدوات معقمة لكل زبون، مناشف ساخنة جديدة، وتعقيم كامل للكراسي والمعدات بعد كل جلسة وفق معايير صحية صارمة.</p>
+</details>
+<details class="group bg-brand-card border border-neutral-900 rounded-2xl p-5 open:border-brand-accent/30 open:shadow-[0_0_24px_rgba(16, 185, 129,0.08)] transition-all duration-300" data-aos="fade-up" data-aos-delay="240">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-white">
+<span data-placeholder="faq_4_q">ما طرق الدفع المقبولة؟</span>
+<span class="faq-chevron text-brand-accent transition-transform duration-300">▼</span>
+</summary>
+<p class="mt-4 text-xs text-neutral-400 leading-relaxed border-t border-neutral-900 pt-4" data-placeholder="faq_4_a">نقبل الدفع نقداً وبطاقات بنكية. يمكنك أيضاً دفع العربون عبر واتساب لتأكيد الحجز في أوقات الذروة.</p>
+</details>
+</div></section><section id="booking" data-dz-section="booking" class="max-w-screen-xl mx-auto px-6 py-24 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<div class="lg:col-span-5 bg-brand-card/80 border border-neutral-900 rounded-3xl p-8 backdrop-blur-md" data-aos="fade-right">
+<span class="text-brand-accent text-xs font-bold uppercase tracking-widest">أوقات العمل</span>
+<h3 class="text-2xl font-black text-white mt-2 mb-4">متى نستقبلك؟</h3>
+<p class="text-sm text-neutral-400 leading-loose whitespace-pre-line" data-placeholder="hours">الإثنين — الجمعة: 9:00 ص — 9:00 م<br/>السبت: 10:00 ص — 8:00 م<br/>الأحد: مغلق</p>
+<div class="mt-8 p-4 rounded-2xl border border-neutral-900 bg-[#050505]/60">
+<p class="text-xs text-neutral-500 mb-1">العنوان</p>
+<p class="text-sm text-white" data-placeholder="map_address">Casablanca, BARBER SHOP</p>
+<a href="tel:+212672345678" class="inline-flex mt-4 text-xs text-brand-accent font-bold">📞 +212672345678</a>
+</div></div>
+<div class="lg:col-span-7 bg-brand-card border border-neutral-900 rounded-3xl p-8 shadow-[0_0_48px_rgba(16, 185, 129,0.08)]" data-aos="fade-left">
+<span class="text-brand-accent text-xs font-bold uppercase tracking-widest">حجز سريع</span>
+<h3 class="text-2xl font-black text-white mt-2 mb-6">احجز عبر واتساب</h3>
+<form id="dz-booking-form" class="space-y-4" onsubmit="return false;">
+<div><label class="text-[10px] text-neutral-500 uppercase tracking-wider">الاسم الكامل</label><input id="dz-bk-name" type="text" required class="mt-1 w-full rounded-xl bg-[#050505] border border-neutral-800 px-4 py-3 text-sm text-white focus:border-brand-accent/50 outline-none" placeholder="اسمك"/></div>
+<div><label class="text-[10px] text-neutral-500 uppercase tracking-wider">الخدمة</label><select id="dz-bk-service" required class="mt-1 w-full rounded-xl bg-[#050505] border border-neutral-800 px-4 py-3 text-sm text-white focus:border-brand-accent/50 outline-none"><option value="قص وتصفيف الشعر">قص وتصفيف الشعر</option><option value="تحديد اللحية الملكي">تحديد اللحية الملكي</option><option value="تنظيف البشرة والعناية">تنظيف البشرة والعناية</option></select></div>
+<div class="grid grid-cols-2 gap-4"><div><label class="text-[10px] text-neutral-500 uppercase tracking-wider">التاريخ</label><input id="dz-bk-date" type="date" required class="mt-1 w-full rounded-xl bg-[#050505] border border-neutral-800 px-4 py-3 text-sm text-white focus:border-brand-accent/50 outline-none"/></div><div><label class="text-[10px] text-neutral-500 uppercase tracking-wider">الساعة</label><input id="dz-bk-hour" type="time" required class="mt-1 w-full rounded-xl bg-[#050505] border border-neutral-800 px-4 py-3 text-sm text-white focus:border-brand-accent/50 outline-none"/></div></div>
+<button type="button" onclick="dzSendBookingWa();return false;" class="w-full mt-2 rounded-xl bg-[#25D366] text-white font-black py-4 text-sm shadow-[0_0_28px_rgba(37,211,102,0.35)] hover:scale-[1.02] transition-transform">إرسال الحجز عبر واتساب</button>
+</form></div></div>
+<script>
+function dzSendBookingWa(){
+var n=document.getElementById('dz-bk-name').value.trim();
+var s=document.getElementById('dz-bk-service').value;
+var d=document.getElementById('dz-bk-date').value;
+var h=document.getElementById('dz-bk-hour').value;
+if(!n||!d||!h){alert('يرجى ملء جميع الحقول');return;}
+var msg='مرحباً، أود حجز موعد:%0Aالاسم: '+encodeURIComponent(n)+'%0Aالخدمة: '+encodeURIComponent(s)+'%0Aالتاريخ: '+d+'%0Aالساعة: '+h;
+window.open('https://wa.me/212672345678?text='+msg,'_blank');
+}
+</script></section><section id="glovo-order" data-dz-section="glovo" class="hidden max-w-screen-xl mx-auto px-6 py-10 relative z-10">
+<div class="rounded-3xl border border-[#FFC244]/30 bg-gradient-to-br from-[#141414] to-[#0d0d0d] p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-[0_0_40px_rgba(255,194,68,0.08)]" data-aos="fade-up">
+<div class="text-right space-y-2">
+<span class="text-[#FFC244] text-xs font-bold uppercase tracking-widest">Glovo Delivery</span>
+<h3 class="text-2xl font-black text-white">اطلب توصيل عبر Glovo</h3>
+<p class="text-xs text-neutral-400 max-w-md">اضغط للانتقال إلى متجرك على Glovo وتقديم الطلب مباشرة من التطبيق.</p>
+</div>
+<a href="#" target="_blank" rel="noopener" data-dz-glovo-link class="dz-pulse-cta inline-flex items-center justify-center rounded-2xl bg-[#FFC244] text-black font-black px-10 py-4 text-sm hover:scale-105 transition-transform shadow-[0_0_32px_rgba(255,194,68,0.35)]">🛵 اطلب على Glovo</a>
+</div></section><section id="delivery" data-dz-section="delivery" class="%1max-w-screen-xl mx-auto px-6 py-16 relative z-10">
+<div class="bg-brand-card border border-neutral-900 rounded-3xl p-8 shadow-[0_0_48px_rgba(16, 185, 129,0.08)]" data-aos="fade-up">
+<div class="mb-8 text-right">
+<span class="text-brand-accent text-xs font-bold uppercase tracking-widest">توصيل / Delivery</span>
+<h3 class="text-2xl font-black text-white mt-2">أرسل طلب التوصيل مع موقعك</h3>
+<p class="text-xs text-neutral-500 mt-2">الاسم، الوقت، وموقع GPS — يصل مباشرة لواتساب المطعم.</p>
+</div>
+<form id="dz-delivery-form" class="grid grid-cols-1 md:grid-cols-2 gap-4" onsubmit="return false;">
+<div><label class="text-[10px] text-neutral-500 uppercase tracking-wider">الاسم الكامل</label><input id="dz-del-name" type="text" required class="mt-1 w-full rounded-xl bg-[#050505] border border-neutral-800 px-4 py-3 text-sm text-white focus:border-brand-accent/50 outline-none" placeholder="اسمك"/></div>
+<div><label class="text-[10px] text-neutral-500 uppercase tracking-wider">الوقت / الحجز</label><input id="dz-del-time" type="text" required class="mt-1 w-full rounded-xl bg-[#050505] border border-neutral-800 px-4 py-3 text-sm text-white focus:border-brand-accent/50 outline-none" placeholder="مثال: 20:30 أو غدا 13:00"/></div>
+<div class="md:col-span-2 flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">
+<button type="button" onclick="dzCaptureDeliveryLocation();return false;" class="rounded-xl border border-brand-accent/40 text-brand-accent font-bold px-6 py-3 text-sm hover:bg-brand-accent/10 transition-colors">📍 تحديد موقعي GPS</button>
+<p id="dz-del-loc-status" class="text-xs text-neutral-500 flex items-center">لم يتم تحديد الموقع بعد</p>
+</div>
+<button type="button" onclick="dzSendDeliveryWa();return false;" class="md:col-span-2 rounded-xl bg-[#25D366] text-white font-black py-4 text-sm shadow-[0_0_28px_rgba(37,211,102,0.35)] hover:scale-[1.01] transition-transform">إرسال الطلب + الموقع عبر واتساب</button>
+</form></div>
+<script>
+window.dzDeliveryCoords='';
+function dzCaptureDeliveryLocation(){
+if(!navigator.geolocation){alert('المتصفح لا يدعم تحديد الموقع');return;}
+document.getElementById('dz-del-loc-status').textContent='جاري تحديد الموقع...';
+navigator.geolocation.getCurrentPosition(function(p){
+window.dzDeliveryCoords=p.coords.latitude+','+p.coords.longitude;
+document.getElementById('dz-del-loc-status').textContent='✓ تم تحديد الموقع — سيرسل مع الطلب';
+},function(){document.getElementById('dz-del-loc-status').textContent='تعذر تحديد الموقع — أرسل العنوان يدوياً في واتساب';},{enableHighAccuracy:true,timeout:12000});
+}
+function dzSendDeliveryWa(){
+var n=document.getElementById('dz-del-name').value.trim();
+var t=document.getElementById('dz-del-time').value.trim();
+if(!n||!t){alert('يرجى ملء الاسم والوقت');return;}
+var msg='طلب توصيل / Delivery:hidden Aالاسم: '+encodeURIComponent(n)+'hidden Aالوقت: '+encodeURIComponent(t);
+if(window.dzDeliveryCoords){msg+='hidden Aالموقع GPS: https://maps.google.com/?q='+encodeURIComponent(window.dzDeliveryCoords);}
+msg+='hidden A— مرسل من موقع Barber Express Maarif';
+window.open('https://wa.me/212672345678?text='+msg,'_blank');
+}
+</script></section><section id="location" data-dz-section="location" class="max-w-screen-xl mx-auto px-6 py-16 relative z-10" data-aos="fade-up">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-brand-card border border-neutral-900 p-6 md:p-8 rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.35)]">
+<div class="lg:col-span-4 space-y-3"><span class="text-brand-accent text-xs font-bold uppercase tracking-widest">موقع المحل</span><h3 class="text-2xl font-black text-white" data-placeholder="map_title">Barber Express Maarif</h3><p class="text-xs text-neutral-400 leading-relaxed" data-placeholder="map_address">Casablanca, BARBER SHOP</p><a href="tel:+212672345678" class="inline-flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1.5 rounded-full mt-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> مفتوح الآن</a></div>
+<div class="lg:col-span-8 w-full h-80 rounded-2xl overflow-hidden border border-neutral-800 shadow-inner relative"><iframe width="100%" height="100%" frameborder="0" src="https://maps.google.com/maps?q=33.573060,-7.591300&amp;z=15&amp;output=embed" class="absolute inset-0 w-full h-full" style="filter:grayscale(1) invert(1) contrast(1.2);pointer-events:none;" loading="lazy" title="Map"></iframe></div>
+</div></section><footer class="border-t border-neutral-900 bg-brand-bg py-10 relative z-10">
+<div class="max-w-screen-xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+<div><h4 class="text-white font-black text-lg mb-2">Barber Express Maarif</h4><p class="text-xs text-neutral-500 leading-relaxed">Casablanca, BARBER SHOP</p></div>
+<div><p class="text-[10px] uppercase tracking-widest text-neutral-600 mb-2">تواصل</p><a href="tel:+212672345678" class="text-sm text-neutral-300 hover:text-brand-accent">+212672345678</a></div>
+<div><p class="text-[10px] uppercase tracking-widest text-neutral-600 mb-2">روابط سريعة</p><div class="flex flex-wrap gap-3 text-xs text-neutral-500"><a href="#services" class="hover:text-white">الخدمات</a><a href="#gallery" class="hover:text-white">المعرض</a><a href="#booking" class="hover:text-white dz-booking-nav" data-dz-booking-cta>الحجز</a><a href="#location" class="hover:text-white">الموقع</a></div></div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center gap-4 pt-5 border-t border-neutral-900/80">
+<p class="text-xs text-neutral-600">© 2026 Barber Express Maarif — جميع الحقوق محفوظة</p>
+<p class="text-[10px] text-neutral-700 tracking-wide">Dripzone Engine v2 — Component Factory</p>
+</div></div></footer><div class="fixed bottom-6 right-6 z-[60] flex gap-3"><a href="tel:+212672345678" class="dz-pulse-cta rounded-full bg-brand-accent text-black px-5 py-3 text-sm font-bold shadow-[0_0_24px_rgba(16, 185, 129,0.35)]" data-placeholder="call_cta">Call</a><a href="https://wa.me/212672345678" target="_blank" rel="noopener" class="rounded-full bg-[#25D366] text-white px-5 py-3 text-sm font-bold shadow-[0_0_20px_rgba(37,211,102,0.35)]" data-placeholder="wa_cta">WhatsApp</a></div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({duration:800,once:true,offset:50});</script>
+<script>(function(){
+  if (window.DRIPZONE_EDIT_MODE === true) return;
+  if (window.__dzProductionLockReady) return;
+  window.__dzProductionLockReady = true;
+
+  document.documentElement.classList.add('dz-production-mode');
+  document.body.classList.remove('dz-inline-edit-mode');
+
+  document.querySelectorAll('[contenteditable]').forEach(function(el){
+    el.removeAttribute('contenteditable');
+    el.removeAttribute('spellcheck');
+    el.classList.remove('dz-inline-editing');
+  });
+  document.querySelectorAll('[data-dz-inline-bound]').forEach(function(el){
+    el.removeAttribute('data-dz-inline-bound');
+  });
+
+  var css = document.createElement('style');
+  css.id = 'dz-production-lock';
+  css.textContent = [
+    'html.dz-production-mode,html.dz-production-mode body{overflow-x:hidden;scroll-behavior:smooth}',
+    'html.dz-production-mode [data-editable-token],html.dz-production-mode [data-placeholder]{',
+    '  outline:none!important;box-shadow:none!important;cursor:inherit;background:transparent!important}',
+    'html.dz-production-mode .dz-inline-editing{outline:none!important;background:transparent!important}',
+    'html.dz-production-mode [data-editable-token]:empty{display:none}',
+    'html.dz-production-mode a[href]{pointer-events:auto}'
+  ].join('');
+  if (!document.getElementById('dz-production-lock')) {
+    document.head.appendChild(css);
+  }
+})();</script>
+</body>
+</html>
